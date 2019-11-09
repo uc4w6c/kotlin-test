@@ -9,6 +9,6 @@ public class HelloServiceTest {
         val helloService = HelloService();
         val sayMessage = helloService.say("Taro")
         // あえてテストに失敗させる
-        Assertions.assertEquals("Taro Hello!!!", sayMessage)
+        Assertions.assertEquals("Taro Hello!", sayMessage)
     }
 }

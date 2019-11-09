@@ -5,3 +5,6 @@ docker run -p 8080:8080 -d kotlin-test
 
 ・CircleCI
 登録: https://techblog.raccoon.ne.jp/archives/1545816773.html
+circleでSetting->uc4w6c->kotlin-test->Project Settings->OverviewでFollow Projectすれば連携される
+ROOT/.circleci/config.ymlに設定されている
+ → ここからAWSへビルド連携も可能
